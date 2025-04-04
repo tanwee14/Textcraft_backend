@@ -1,0 +1,55 @@
+# ------------------------
+# Backend (FastAPI + Transformers)
+# ------------------------
+
+# Virtual Environments & Dependencies
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore large libraries
+TextCraft_Backend/venv/
+TextCraft_Backend/venv/Lib/site-packages/
+TextCraft_Backend/venv/Lib/site-packages/torch/lib/
+
+# Hugging Face Models & Transformers Cache
+~/.cache/huggingface/
+~/.huggingface/
+huggingface_cache/
+transformers_cache/
+
+# Large Model Files
+*.h5
+*.bin
+*.pkl
+*.ckpt
+*.onnx
+
+# Logs & Debugging
+*.log
+*.out
+*.pid
+gunicorn.log
+gunicorn.error
+
+# API Keys & Configs
+config.json
+secrets.json
+.env
+.env.local
+
+# SQLite & Database Dumps
+*.sqlite
+*.db
+*.sql
+
+# LanguageTool & Other NLP Resources
+.languagetool/
+
+TextCraft_Backend/venv/
